@@ -1,0 +1,120 @@
+ @charset "UTF-8";
+
+ * {
+     font-family: arial, Georgia, Times, 'Times New Roman', serif;
+     margin: 0px;
+     padding: 0px;
+ }
+
+ body,
+ html {
+     background-color: rgb(173, 223, 243);
+
+ }
+
+ header {
+     background-color: rgb(155, 222, 253);
+
+ }
+
+ header>h1 {
+     padding: 10px;
+     text-align: center;
+     right: center;
+ }
+
+ /*tem que usar o i#burger para aparecer o valor*/
+ i#burger {
+     background-color: rgb(7, 83, 145);
+     color: rgb(6, 88, 165);
+     display: none;
+     text-align: center;
+     padding: 7px;
+     cursor: pointer;
+ }
+
+ i#burger:hover {
+     background-color: rgb(2, 29, 59);
+     color: black;
+
+ }
+
+ /*trocar block para none*/
+ menu {
+     display: none;
+ }
+
+ menu>ul {
+     list-style-type: none;
+ }
+
+ menu>ul>li>a {
+     display: block;
+     padding: 7px;
+     text-decoration: none;
+     text-align: center;
+     background-color: rgb(77, 199, 255);
+     color: rgb(1, 11, 148);
+     border-color: 2px rgb(0, 0, 0);
+ }
+
+ menu>ul>li>a:hover {
+     background-color: rgb(0, 0, 0);
+
+ }
+
+ main {
+     width: 90vw;
+     background-color: rgb(183, 253, 255);
+     margin: auto;
+     margin-top: 40px;
+     padding: auto;/*organizar a margem  do paragrafo para não estourar  o tamanho da div*/
+     border-radius: 10px;
+
+ }
+ textarea {
+
+ }
+ #result{
+    padding: o.3rem;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+ }
+
+ img{
+     width: auto;
+     margin: auto  ;
+     position: middle;
+     top: 0px;
+     border-top-left-radius: 10px ;
+     float: left;
+     border-top-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+     border-bottom: auto ;
+     margin-bottom:30px;
+     height: auto;
+ }
+
+ article>h2 {
+     padding-bottom: 30px;
+     height: 20px;
+     text-align: auto;
+     margin:auto;
+     border: auto;
+ }
+
+ article>p {
+     text-align: justify;
+     margin-bottom: auto; /*organizar a margem  do paragrafo para não estourar  o tamanho da div*/
+     text-indent: justify;
+     height: 70%;
+     right: 10%;
+     left: auto;
+     border: auto;
+     float: middle;
+
+     
+ }
